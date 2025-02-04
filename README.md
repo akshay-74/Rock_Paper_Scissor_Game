@@ -15,4 +15,4 @@ This project is a web-based Rock Paper Scissors game built using HTML, CSS, and 
   * Frontend: HTML, CSS, JavaScript
   * Styling: Custom CSS with a card-based layout
 
-This project is a great example of implementing game logic, frontend design, and basic web interactions in a beginner-friendly way. Let me know if you need further enhancements! 
+This project is a great example of implementing game logic, frontend design, and basic web interactions in a beginner-friendly way. 
