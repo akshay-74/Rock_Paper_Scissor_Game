@@ -1,0 +1,73 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #B3A492;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+/* Card container */
+.card {
+    background: #E3E1D9;
+    padding: 20px;
+    max-width: 600px;
+    height: 300px;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Title styling */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: black;
+}
+h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+/* Choices container - Ensures buttons are in a single row */
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Choice buttons */
+.choices button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #040D12;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Hover effect on buttons */
+.choices button:hover {
+    background-color: #2B2B2B;
+}
+
+/* Result text styling */
+.result {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+/* User & Computer choice styling */
+p {
+    font-size: 18px;
+    color: black;
+    margin: 5px 0;
+}
